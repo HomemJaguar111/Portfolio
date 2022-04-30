@@ -1,12 +1,87 @@
-@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+
 
 body {
-    background-color: darkblue;
+    background-image: url(./Assets/parede.jpg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.textName {
+    margin-top: 140px;    
+}
 
+
+
+h2{
+    color:darkblue;
+    font-weight: bold;
+    border-bottom: solid 1px darkblue;
+    
 }
 header {
-    
+    text-shadow: 0 0 10px rgb(4, 4, 64);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: solid white20px;
+    margin: 5px;
+    margin: -2px;
 }
 main{
 
 }
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: darkblue;
+    height:40px ;
+    width: 100%;
+    list-style: none;
+}
+
+li{
+    margin:10px;
+}
+
+#fotoperfil{
+    
+    border-radius: 50%;
+    
+    margin: 10px;
+    height: 200px;
+    width: 200px ;
+    border:3px solid white;
+    
+}
+#perfil{
+    display: flex;
+    flex-direction: row;
+}
+.projetosMob{
+    margin: 5px;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction:column;
+}
+
+
+    
+
+.divContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container{
+    background-color: rgb(5, 5, 57);
+    height: 200px;
+    width: 300px;
+    margin: 10px;}
